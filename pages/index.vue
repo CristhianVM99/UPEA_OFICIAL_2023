@@ -2,12 +2,12 @@
     <div id="main-wrapper" class="main-wrapper">
 
         <!-- SECCION DE HEADER DE LA PAGINA -->
-        <!--<Header showHeaderTop="true" />-->
+        <Header showHeaderTop="true" />
         
         <!-- SECCION DE LA UNIVERSIDAD PRINCIPAL DEL NOMBRE -->
         <!--<Banner />-->
         
-        <HeaderTwo showHeaderTop="true" />
+        <!--<HeaderTwo showHeaderTop="true" />-->
         
         <Banner />
 
@@ -124,9 +124,9 @@
         },              
         components: {
             /* COMPONENTES: visualizacion de todos los componentes para la pagina principal que estamos usando acorde a sus carrera. */
-            //Header: () => import("@/components/header/HeaderThree"),
+            Header: () => import("@/components/header/HeaderThree"),
             //Banner: () => import("@/components/home-online-academy/Banner"),
-            HeaderTwo: () => import("@/components/header/HeaderTwo"),
+            //HeaderTwo: () => import("@/components/header/HeaderTwo"),
             Banner: () => import("@/components/home-university/Banner"),
             Features: () => import("@/components/home-university/Features"),
             Information: () => import("@/components/home-main/About"),            

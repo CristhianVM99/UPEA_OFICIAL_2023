@@ -19,11 +19,11 @@
                     </div>
                     <div class="header-right">
                         <ul class="header-action">
-                            <li class="icon search-icon">
+                            <!--<li class="icon search-icon">
                                 <button class="search-trigger" @click="searchPopUpOpen( 'addClass', 'open' )">
                                     <i class="icon-2"></i>
                                 </button>
-                            </li>
+                            </li>-->
                             <li class="icon light-dark-icon">
                                 <ColorMode />
                             </li>
@@ -38,7 +38,7 @@
             </div>
         </div>
 
-        <SearchPopUp />
+        <!--<SearchPopUp />-->
 
         <OffCanvasMobileMenuOne />
     </header>
@@ -93,11 +93,3 @@
         }
     }
 </script>
-
-<style lang="scss">
-    .header-style-3 {
-         a.edu-btn.btn-secondary {
-            background: var(--color-primary);
-        }
-    }
-</style>

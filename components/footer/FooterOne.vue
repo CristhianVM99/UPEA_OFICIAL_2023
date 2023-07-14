@@ -18,10 +18,12 @@
                             <h4 class="widget-title">Avisos</h4>
                             <div class="inner">
                                 <ul class="footer-link link-hover">
-                                    <li><n-link to="/convocatorias/publicaciones">publicaciones</n-link></li>
-                                    <li><n-link to="/convocatorias/gacetas">gacetas</n-link></li>
-                                    <li><n-link to="/convocatorias/eventos">eventos</n-link></li>
-                                    <li><n-link to="/convocatorias/videos">videos</n-link></li>  
+                                    <li><n-link to="/convocatorias/publicaciones">Publicaciones</n-link></li>
+                                    <li><n-link to="/convocatorias/servicios">Servicios</n-link></li>                
+                                    <li><n-link to="/convocatorias/gacetas">Gacetas</n-link></li>
+                                    <li><n-link to="/convocatorias/auditorias">Auditorias</n-link></li>
+                                    <li><n-link to="/convocatorias/eventos">Eventos</n-link></li>
+                                    <li><n-link to="/convocatorias/videos">Videos</n-link></li> 
                                 </ul>
                             </div>
                         </div>
@@ -31,12 +33,11 @@
                             <h4 class="widget-title">Mas</h4>
                             <div class="inner">
                                 <ul class="footer-link link-hover">
-                                    <li><n-link to="/contact-us">repositorio institucional</n-link></li>
-                                    <li><n-link to="/contact-us">disbec</n-link></li>
-                                    <li><n-link to="/contact-us">mi biblioteca upea</n-link></li>
-                                    <li><n-link to="/contact-us">radio upea</n-link></li>
-                                    <li><n-link to="/contact-us">tv upea</n-link></li>
-                                    <li><n-link to="/convocatorias/auditorias">auditoria</n-link></li>  
+                                    <li><n-link to="/contact-us">Repositorio Institucional</n-link></li>
+                                    <li><n-link to="/contact-us">Disbec</n-link></li>
+                                    <li><n-link to="/contact-us">Mi Biblioteca Upea</n-link></li>
+                                    <li><n-link to="/contact-us">Radio Upea</n-link></li>
+                                    <li><n-link to="/contact-us">Tv Upea</n-link></li>
                                 </ul>
                             </div>
                         </div>

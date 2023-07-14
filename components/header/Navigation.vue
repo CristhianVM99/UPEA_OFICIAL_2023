@@ -21,29 +21,29 @@
 
         <li class="has-droupdown"><n-link to="">Unidades Administrativas</n-link>
             <ul class="submenu">
-                <li><a href="https://vicerrectorado.upea.bo/l">vicerectorado</a></li>
-                <li><a href="https://www.sie.upea.bo/l">unidad de sistemas de informacion y estadistica</a></li>
-                <li><a href="https://registrosadmisiones.upea.bo/">registros y admiciones</a></li>
+                <li><a href="https://vicerrectorado.upea.bo/l">Vicerectorado</a></li>
+                <li><a href="https://www.sie.upea.bo/l">Unidad de Sistemas de Informacion y Estadistica</a></li>
+                <li><a href="https://registrosadmisiones.upea.bo/">Registros y Admiciones</a></li>
             </ul>                    
         </li>
 
         <li class="has-droupdown"><n-link to="">Avisos</n-link>
             <ul class="submenu">
-                <li><n-link to="/convocatorias/publicaciones">publicaciones</n-link></li>
-                <li><n-link to="/convocatorias/servicios">servicios</n-link></li>                
-                <li><n-link to="/convocatorias/gacetas">gacetas</n-link></li>
-                <li><n-link to="/convocatorias/auditorias">auditorias</n-link></li>
-                <li><n-link to="/convocatorias/eventos">eventos</n-link></li>
-                <li><n-link to="/convocatorias/videos">videos</n-link></li>                                
+                <li><n-link to="/convocatorias/publicaciones">Publicaciones</n-link></li>
+                <li><n-link to="/convocatorias/servicios">Servicios</n-link></li>                
+                <li><n-link to="/convocatorias/gacetas">Gacetas</n-link></li>
+                <li><n-link to="/convocatorias/auditorias">Auditorias</n-link></li>
+                <li><n-link to="/convocatorias/eventos">Eventos</n-link></li>
+                <li><n-link to="/convocatorias/videos">Videos</n-link></li>                                
             </ul>
         </li>
         <li class="has-droupdown"><n-link to="">Mas</n-link>
             <ul class="submenu">
-                <li><a href="http://repositorio.upea.bo/" target="_blank">repositorio institucional</a></li>
-                <li><a href="https://disbedc.upea.bo/" target="_blank">disbec</a></li>
-                <li><a href="http://mibiblioteca.upea.bo/" target="_blank">mi biblioteca upea</a></li>
-                <li><a href="https://fm100.upea.bo/" target="_blank">radio upea</a></li>
-                <li><a href="https://tv.upea.bo/" target="_blank">tv upea</a></li>
+                <li><a href="http://repositorio.upea.bo/" target="_blank">Repositorio Institucional</a></li>
+                <li><a href="https://disbedc.upea.bo/" target="_blank">Disbec</a></li>
+                <li><a href="http://mibiblioteca.upea.bo/" target="_blank">Mi Biblioteca Upea</a></li>
+                <li><a href="https://fm100.upea.bo/" target="_blank">Radio Upea</a></li>
+                <li><a href="https://tv.upea.bo/" target="_blank">Tv Upea</a></li>
             </ul>
         </li>
     </ul>

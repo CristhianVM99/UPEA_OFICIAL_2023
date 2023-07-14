@@ -40,7 +40,7 @@
 
         <SearchPopUp />
 
-        <OffCanvasMobileMenuTwo />
+        <OffCanvasMobileMenuTwo />        
     </header>
 </template>
 
@@ -51,7 +51,7 @@
             Navigation: () => import("@/components/header/Navigation"),
             SearchPopUp: () => import("@/components/header/SearchPopUp"),
             ColorMode: () => import("@/components/common/ColorMode"),
-            OffCanvasMobileMenuTwo: () => import("@/components/header/OffCanvasMobileMenuTwo")
+            OffCanvasMobileMenuTwo: () => import("@/components/header/OffCanvasMobileMenuTwo")            
         },
         data(){
             return {
