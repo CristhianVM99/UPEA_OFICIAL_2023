@@ -9,7 +9,7 @@
                     <img  style="height:100%;height: 420px;object-fit: cover;" :src="url_api + '/Publicaciones/' + coleccion.publicaciones_imagen" :alt="coleccion.publicaciones_titulo">
                 </n-link>
                 <div class="time-top">
-                    <span class="duration"><i class="icon-61"></i>{{ coleccion.publicaciones_tipo }}</span>
+                    <span class="duration">{{ coleccion.publicaciones_tipo }}</span>
                 </div>
             </div>
             <div class="content">
@@ -79,7 +79,7 @@
                     <img  style="height:462px;object-fit: cover;" :src="url_api + '/Eventos/' + coleccion.evento_imagen" alt="img" />
                 </n-link>
                 <div class="time-top">
-                    <span class="duration"><i class="icon-61"></i>{{ coleccion.evento_tipo }}</span>
+                    <span class="duration">{{ coleccion.evento_tipo }}</span>
                 </div>
             </div>
             <div class="content">
@@ -115,7 +115,7 @@
                         style="border-radius: 5px; width: 100%; height: 420px;"
                 />    
                 <div class="time-top">
-                    <span class="duration"><i class="icon-61"></i>Video</span>
+                    <span class="duration">Video</span>
                 </div>
             </div>
             <div class="content">

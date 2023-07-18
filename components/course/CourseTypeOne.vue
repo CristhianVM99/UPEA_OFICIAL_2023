@@ -78,9 +78,7 @@
                 url_api: process.env.APP_ROOT_API,             
             };
         },        
-        created(){
-            console.log(this.coleccion)
-            
+        created(){            
         }
     }
 </script>

@@ -4,8 +4,8 @@
             <div class="header-top">
                 <div class="header-top-left">
                     <ul class="header-info">
-                        <li><a href="tel:+011235641231"><i class="icon-phone"></i>Call: {{ celular1 }}</a></li>
-                        <li><a href="mailto:info@edublink.com" target="_blank"><i class="icon-envelope"></i>Email: {{ correo1 }}</a></li>
+                        <li><a :href="`tel:+591${celular1}`"><i class="icon-phone"></i>Celular: {{ celular1 }} </a></li>
+                        <li><a :href="`mailto:${correo1}`" target="_blank"><i class="icon-envelope"></i>Correo: {{ correo1 }} </a></li>
                     </ul>
                 </div>
                 <div class="header-top-right">
@@ -27,9 +27,7 @@ export default {
         }
     },
     data() {
-        return {
-            /*celular1: 123445,                
-            correo1: 12345,*/
+        return {            
             celular1: useInstitucionStore().institucion.institucion_celular1,                
             correo1: useInstitucionStore().institucion.institucion_correo1,
             admin_link: process.env.APP_ADMIN_API

@@ -14,13 +14,13 @@
                     </div>
                     <div class="sorting-right">
                         <div class="layout-switcher">
-                            <label>Grid</label>
+                            <label>Listado</label>
                             <ul class="switcher-btn">
                                 <li><n-link :to="'/convocatorias/'+$route.params.categoria" class="active"><i class="icon-53"></i></n-link></li>
                                 <li><n-link :to="'/convocatoriasLista/'+$route.params.categoria" ><i class="icon-54"></i></n-link></li>
                             </ul>
                         </div>
-                        <div class="edu-sorting">
+                        <!--<div class="edu-sorting">
                             <div class="icon"><i class="icon-55"></i></div>
                             <select class="edu-select">
                                 <option>Filters</option>
@@ -28,7 +28,7 @@
                                 <option>High Low To</option>
                                 <option>Last Viewed</option>
                             </select>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
 

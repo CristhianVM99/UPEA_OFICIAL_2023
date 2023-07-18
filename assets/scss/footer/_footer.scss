@@ -409,9 +409,10 @@
     .copyright-area {
         border-top: 1px solid #1f2020;
         a {
-            color: var(--color-primary);
+            color: var(--color-secondary);
             &:hover {
-                background: var(--gradient-primary);
+                //background: var(--gradient-primary);
+                background: var(--color-primary);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
             }

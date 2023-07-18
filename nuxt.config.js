@@ -3,9 +3,9 @@ export default {
   target: 'static',
   head: {
     title: "Upea",
-    titleTemplate: "%s - EduBlink",
+    titleTemplate: "UPEA | Universidad Publica de El Alto",
     htmlAttrs: {
-      lang: "zxx",
+      lang: "es",
     },
     meta: [
       { charset: "utf-8" },

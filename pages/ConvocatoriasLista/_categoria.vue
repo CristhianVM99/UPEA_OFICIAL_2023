@@ -8,11 +8,7 @@
         
         <div class="edu-course-area course-area-1 section-gap-equal">
             <div class="container">
-                <div class="row g-5">
-                    <div class="col-lg-3">
-                        <BlogSidebarOne/>
-                    </div>
-
+                <div class="row g-5">                   
                     <div class="col-lg-9 col-pl--35">
                         <div class="edu-sorting-area">
                             <div class="sorting-left">
@@ -26,7 +22,7 @@
                                         <li><n-link :to="'/convocatoriasLista/'+$route.params.categoria" class="active"><i class="icon-54"></i></n-link></li>
                                     </ul>
                                 </div>
-                                <div class="edu-sorting">
+                                <!--<div class="edu-sorting">
                                     <div class="icon"><i class="icon-55"></i></div>
                                     <select class="edu-select">
                                         <option>Filters</option>
@@ -34,7 +30,7 @@
                                         <option>High Low To</option>
                                         <option>Last Viewed</option>
                                     </select>
-                                </div>
+                                </div>-->
                             </div>
                         </div>
                         
@@ -126,6 +122,9 @@
                                 :options="paginationOptions"
                             />
                         </div>-->
+                    </div>
+                    <div class="col-lg-3">
+                        <BlogSidebarOne/>
                     </div>
                 </div>
             </div>

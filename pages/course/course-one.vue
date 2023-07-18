@@ -34,7 +34,7 @@
                 <div class="row g-5">
                     <div 
                         class="col-md-6 col-lg-4 col-xl-3"
-                        v-for="carrera in carreras" 
+                        v-for="carrera in carreras.slice(0, carreras.length - 2)" 
                         :key="carrera.carrera_id"
                     >
                         <CourseTypeOne :coleccion="carrera" extraClass="course-box-shadow" />

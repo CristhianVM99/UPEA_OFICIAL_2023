@@ -48,7 +48,8 @@
                 content: "";
                 height: 100%;
                 width: 100%;
-                background-color: rgba(26,182,157, .6);
+                //background-color: rgba(26,182,157, .6);                
+                background: linear-gradient(45deg,rgba(2, 2, 193,.5),rgba(81, 17, 22,.5),rgb(193, 2, 2,.5));
                 border-radius: 10px;
                 position: absolute;
                 top: 0;
@@ -56,7 +57,7 @@
                 left: 0;
                 right: 0;
                 visibility: hidden;
-                opacity: 0;
+                opacity: 0.2;
                 transition: var(--transition);
             }
         }

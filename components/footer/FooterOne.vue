@@ -76,7 +76,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="inner text-center">
-                            <p>Copyright {{ new Date().getFullYear() }} <a href="#">Universidad Pública de El Alto</a> Designed By <a href="https://1.envato.market/YgGJbj" target="_blank">Cvm</a>. All Rights Reserved</p>
+                            <p>Copyright {{ new Date().getFullYear() }} <a href="#">Universidad Pública de El Alto</a> Designed By <a href="https://www.linkedin.com/in/cristhian-villca-mamani-06933b251/" target="_blank">Cvm</a>. Todos los Derechos Reservados</p>
                         </div>
                     </div>
                 </div>
